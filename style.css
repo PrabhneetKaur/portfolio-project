@@ -1,0 +1,41 @@
+:root {
+    --primary-color: rgb(5, 5, 5);
+}
+
+body {
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.main-conatiner {
+    background-color: var(--primary-color);
+}
+
+.summary {
+    flex: 3 3 0%;
+}
+
+.profile-container {
+    width: 100%;
+    padding: 4rem;
+}
+
+.profile-image {
+    width: 100%;
+    border-radius: 50%; 
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+
+
+.main-data {
+    flex: 8 8 0%;
+    background-color: #fff;
+}
+
+.experience-data, .education-data {
+    border-color: var(--primary-color);
+}
